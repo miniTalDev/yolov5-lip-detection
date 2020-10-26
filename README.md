@@ -33,7 +33,7 @@ $ pip install -r requirements.txt
 
 ## Tutorial
 
-and you can check it using webcam by:
+you can check net using webcam by:
 ```
 python detect.py --source 0 --weights models/mine/best.pt 
 ```
@@ -52,9 +52,9 @@ some useful additional arguments are:
 
 
 ```
-
+<!-- 
 <img src="https://user-images.githubusercontent.com/26833433/90187293-6773ba00-dd6e-11ea-8f90-cd94afc0427f.png" width="1000">
-** GPU Speed measures end-to-end time per image averaged over 5000 COCO val2017 images using a V100 GPU with batch size 32, and includes image preprocessing, PyTorch FP16 inference, postprocessing and NMS. EfficientDet data from [google/automl](https://github.com/google/automl) at batch size 8.
+** GPU Speed measures end-to-end time per image averaged over 5000 COCO val2017 images using a V100 GPU with batch size 32, and includes image preprocessing, PyTorch FP16 inference, postprocessing and NMS. EfficientDet data from [google/automl](https://github.com/google/automl) at batch size 8. -->
 
 <!-- - **August 13, 2020**: [v3.0 release](https://github.com/ultralytics/yolov5/releases/tag/v3.0): nn.Hardswish() activations, data autodownload, native AMP.
 - **July 23, 2020**: [v2.0 release](https://github.com/ultralytics/yolov5/releases/tag/v2.0): improved model definition, training and mAP.
@@ -86,7 +86,7 @@ some useful additional arguments are:
 
 
 
-
+<!-- 
 ## Tutorials
 
 * [Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)
@@ -108,11 +108,11 @@ YOLOv5 may be run in any of the following up-to-date verified environments (with
 - **Kaggle Notebook** with free GPU: [https://www.kaggle.com/ultralytics/yolov5](https://www.kaggle.com/ultralytics/yolov5)
 - **Google Cloud** Deep Learning VM. See [GCP Quickstart Guide](https://github.com/ultralytics/yolov5/wiki/GCP-Quickstart) 
 - **Docker Image** https://hub.docker.com/r/ultralytics/yolov5. See [Docker Quickstart Guide](https://github.com/ultralytics/yolov5/wiki/Docker-Quickstart) ![Docker Pulls](https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker)
-
+ -->
 
 ## Inference
 
-Inference can be run on most common media formats. Model [checkpoints](https://drive.google.com/open?id=1Drs_Aiu7xx6S-ix95f9kNsA6ueKRpN2J) are downloaded automatically if available. Results are saved to `./inference/output`.
+
 ```bash
 $ python detect.py --source 0  # webcam
                             file.jpg  # image 
@@ -122,6 +122,7 @@ $ python detect.py --source 0  # webcam
                             rtsp://170.93.143.139/rtplive/470011e600ef003a004ee33696235daa  # rtsp stream
                             rtmp://192.168.1.105/live/test  # rtmp stream
                             http://112.50.243.8/PLTV/88888888/224/3221225900/1.m3u8  # http stream
+                   --weights models/mine/best.pt
 ```
 
 
