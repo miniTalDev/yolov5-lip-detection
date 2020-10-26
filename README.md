@@ -11,7 +11,7 @@ This repository forked from https://github.com/ultralytics/yolov3 (powerful impl
 
 ## Result Example
 <video width="400" controls>
-  <source src="inference/output/result.mkv" type="video/mp4">
+  <source src="inference/output/result.mp4" type="video/mp4">
   Your browser does not support HTML video.
 </video>
 
