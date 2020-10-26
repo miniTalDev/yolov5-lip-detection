@@ -10,11 +10,7 @@
 This repository forked from https://github.com/ultralytics/yolov3 (powerful implementation of yolo (Yoo Only Look Once) algorithm for object detection using tensorflow, keras and torch. this is brief performance comparison of different yolov5 algoruthms.) for lip detection and its state. there are four classes incluse laugh,open, close and pucker. 
 
 ## Result Example
-<video width="400" controls>
-  <source src="inference/output/result.mp4" type="video/mp4">
-  Your browser does not support HTML video.
-</video>
-
+(https://github.com/milad-4274/yolov5/blob/master/inference/output/result.gif)
 
 <!-- This repository represents Ultralytics open-source research into future object detection methods, and incorporates our lessons learned and best practices evolved over training thousands of models on custom client datasets with our previous YOLO repository https://github.com/ultralytics/yolov3. **All code and models are under active development, and are subject to modification or deletion without notice.** Use at your own risk. -->
 
