@@ -7,10 +7,12 @@
 
 ![CI CPU testing](https://github.com/ultralytics/yolov5/workflows/CI%20CPU%20testing/badge.svg)
 
-This repository forked from https://github.com/ultralytics/yolov3 (powerful implementation of yolo (Yoo Only Look Once) algorithm for object detection using tensorflow, keras and torch. this is brief performance comparison of different yolov5 algoruthms.) for lip detection and its state. there are four classes incluse laugh,open, close and pucker. there is pretrained weights in 
+This repository forked from https://github.com/ultralytics/yolov3 (powerful implementation of yolo (Yoo Only Look Once) algorithm for object detection using tensorflow, keras and torch) for lip detection and it's state. four lip state will detect include laugh, open, close and pucker. the pretrained weights saved in: 
 ```
 models/mine/best.pt
 ```
+instruction of using pre-trained weights introduced in [Markdown - Link](#Tutorial).
+
 
 
 
