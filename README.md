@@ -11,7 +11,7 @@ This repository forked from https://github.com/ultralytics/yolov3 (powerful impl
 ```
 models/mine/best.pt
 ```
-instruction of using pre-trained weights introduced in [Markdown - Link](#Tutorial).
+instruction of using pre-trained weights introduced in [Tutorial](#Tutorial).
 
 
 
