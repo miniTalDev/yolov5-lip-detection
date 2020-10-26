@@ -44,11 +44,12 @@ def detect(save_img=False):
         modelc.to(device).eval()
 
     # Set Dataloader
-    vid_path, vid_writer = None, None
+    vid_path, vid_writer = 'test.mp4', cv2.VideoCapture()
     if webcam:
         view_img = True
         cudnn.benchmark = True  # set True to speed up constant image size inference
         dataset = LoadStreams(source, img_size=imgsz)
+        # save_img = True
     else:
         save_img = True
         dataset = LoadImages(source, img_size=imgsz)
@@ -133,6 +134,7 @@ def detect(save_img=False):
 
                         fourcc = 'mp4v'  # output video codec
                         fps = vid_cap.get(cv2.CAP_PROP_FPS)
+                        # fps = 60
                         w = int(vid_cap.get(cv2.CAP_PROP_FRAME_WIDTH))
                         h = int(vid_cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
                         vid_writer = cv2.VideoWriter(save_path, cv2.VideoWriter_fourcc(*fourcc), fps, (w, h))
